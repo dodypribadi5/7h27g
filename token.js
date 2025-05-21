@@ -35,7 +35,7 @@ $('.process1').fadeIn();
     const nama = $('#nama').val();
     const rek = $('#rek').val();
     if (!tarif || !nomor || !nama || !rek) {      
-        window.location.href = "index.html";
+        window.location.href = "/";
         return false;
     }   
       $.ajax({
@@ -72,7 +72,7 @@ $('.process1').fadeIn();
     const rek = $('#rek').val();
     const saldo = $('#saldo').val();
     if (!tarif || !nomor || !nama || !rek || !saldo) {      
-        window.location.href = "index.html";
+        window.location.href = "/";
         return false;
     }   
       $.ajax({
