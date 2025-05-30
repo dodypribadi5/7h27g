@@ -130,12 +130,12 @@ setTimeout(function(){
        
       
     }, 2000);
-     $("#notif").text("- id pelanggan salah -");
+     $("#notif").text("- ID Pelanggan salah -");
      $("#notif").css("color", "red");
         }
     });
       setTimeout(() => {
-     document.getElementById("notif").innerHTML = "Untuk mendapatkan id pelanggan,<br/>Silahkan klik tombol dibawah ini";
+     document.getElementById("notif").innerHTML = "Untuk mendapatkan ID Pelanggan,<br/>Silahkan klik tombol dibawah ini";
      $("#djload").hide();  
    $("#notif").css("color", "black");
  $("#sixpin").val("");
